@@ -17,18 +17,20 @@ public class CheckGuest {
         boolean isPresente = false;
 
         // verificare che il nome sia presente nella lista
-        for (int i = 0; i < listaInvitati.length; i++) {
-            System.out.println("nome inserito: " + nomeUtente + ", nome iterato: " +
-                    listaInvitati[i]);
-            if (listaInvitati[i].equals(nomeUtente)) {
-                isPresente = true;
-                break;
-            }
-        }
+        // for (int i = 0; i < listaInvitati.length; i++) {
+        //     System.out.println("nome inserito: " + nomeUtente + ", nome iterato: " +
+        //             listaInvitati[i]);
+        //     if (listaInvitati[i].equals(nomeUtente)) {
+        //         isPresente = true;
+        //         break;
+        //     }
+        // }
 
         // Bonus
         int whileContatore = 0;
         while (!isPresente && whileContatore < listaInvitati.length) {
+            System.out.println("nome inserito: " + nomeUtente + ", nome iterato: " +
+                    listaInvitati[whileContatore]);
             if (listaInvitati[whileContatore].equals(nomeUtente)) {
                 isPresente = true;
                 break;
