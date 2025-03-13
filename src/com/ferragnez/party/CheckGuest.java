@@ -20,7 +20,7 @@ public class CheckGuest {
         // for (int i = 0; i < listaInvitati.length; i++) {
         //     System.out.println("nome inserito: " + nomeUtente + ", nome iterato: " +
         //             listaInvitati[i]);
-        //     if (listaInvitati[i].equals(nomeUtente)) {
+        //     if (listaInvitati[whileContatore].toLowerCase().equals(nomeUtente.toLowerCase())) {
         //         isPresente = true;
         //         break;
         //     }
