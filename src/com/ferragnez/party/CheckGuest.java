@@ -31,7 +31,7 @@ public class CheckGuest {
         while (!isPresente && whileContatore < listaInvitati.length) {
             System.out.println("nome inserito: " + nomeUtente + ", nome iterato: " +
                     listaInvitati[whileContatore]);
-            if (listaInvitati[whileContatore].equals(nomeUtente)) {
+            if (listaInvitati[whileContatore].toLowerCase().equals(nomeUtente.toLowerCase())) {
                 isPresente = true;
                 break;
             }
